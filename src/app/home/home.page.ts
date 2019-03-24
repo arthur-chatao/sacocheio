@@ -16,7 +16,7 @@ n1 : number = 0;
 n2 : number = 0;
 n3 : number = 0;
  clicar() : void {
-   alert("Professor Eduardo diz: Paguem com seu salário "+this.v3);
+   alert("Professor Eduardo diz: Paguem com seu salário "+this.v2);
  }
 
  result() : void {
