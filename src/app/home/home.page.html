@@ -23,23 +23,14 @@
            <ion-button (click)= "clicar()" > Avisar Professor Eduardo </ion-button>
       </ion-card-content>
     </ion-card>
-            <ion-input [(ngModel)]="v1"></ion-input>
-            <ion-icon name="add"></ion-icon>
-            <br>
-            <ion-input [(ngModel)]="v2"></ion-input>
-            <ion-button (click)= "result()" > Resultado </ion-button>
+            <component-soma></component-soma>
             <br>
             <br>
-            <br>
-            <ion-input [(ngModel)]="par_impar"></ion-input>
-            <ion-button (click)= "par()" > Verifique </ion-button>
+            <component-par></component-par>
             <br>
             <br>
             <br>
-            <ion-input [(ngModel)]="n1"></ion-input>
-            <ion-input [(ngModel)]="n2"></ion-input>
-            <ion-input [(ngModel)]="n3"></ion-input>
-              <ion-button (click)= "maior()" > Verifique </ion-button>
+            <component-maior></component-maior>
 </ion-content>
 
 <ion-footer>
