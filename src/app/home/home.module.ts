@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { ComponentPar } from '../componentes/par/component.par';
 import { ComponentSoma } from '../componentes/soma/component.soma';
 import { ComponentMaior } from '../componentes/maior-menor/component.maior';
+
 import { HomePage } from './home.page';
 
 
